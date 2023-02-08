@@ -46,29 +46,28 @@ function App() {
 
       <main>
         <Routes>
-          <Route index element={<CreateNote addNewNote={addNote} />} />
-          <Route
-            path='/preview/:noteId'
-            element={
-              <Preview
-                notes={notes}
-                getCurrent={getCurrent}
-                removeNote={removeNote}
-              />
-            }
-          />
-          <Route
-            path='/edit/:editId'
-            element={
-              <Edit
-                getCurrent={getCurrent}
-                updateNote={updateNote}
-                notes={notes}
-              />
-            }
-          />
-
-          <Route path='*' element={<h1> This Page is undefined </h1>} />
+            <Route index element={<CreateNote addNewNote={addNote} />} />
+            <Route
+              path={`preview/:noteId`}
+              element={
+                <Preview
+                  notes={notes}
+                  getCurrent={getCurrent}
+                  removeNote={removeNote}
+                />
+              }
+            />
+            <Route
+              path={`edit/:editId`}
+              element={
+                <Edit
+                  getCurrent={getCurrent}
+                  updateNote={updateNote}
+                  notes={notes}
+                />
+              }
+            />
+            <Route path='*' element={<h1> This Page is undefined </h1>} />
         </Routes>
       </main>
     </div>

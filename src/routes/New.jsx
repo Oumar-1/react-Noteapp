@@ -8,7 +8,7 @@ export default function CreateNote(props) {
 
   function handleSubmit(data) {
     props.addNewNote(data);
-    navigate(`/preview/${data.id}`);
+    navigate(`preview/${data.id}`);
   }
 
   return <Form initdata={emptyNote()}handleSubmit={handleSubmit}/>;
