@@ -8,7 +8,7 @@ const Root = ReactDom.createRoot(document.getElementById('root'));
 // host it somewehre else or on you server please remove it 
 // or even if you gonna host it on local host 
 Root.render(
-  <Router basename='/react-Noteapp'>
+  <Router basename='react-Noteapp/'>
     <App />
   </Router>
 );
