@@ -4,9 +4,9 @@ import { Link, NavLink } from 'react-router-dom';
 function Navigation(props) {
   const notesEls = props.notes.map((note) => {
     return (
-      <li key={note.id}>
+      <li key={note.id} >
         {' '}
-        <NavLink to={`/preview/${note.id}`}>{note.title}</NavLink>{' '}
+        <NavLink title={note.title} to={`/preview/${note.id}`}>{note.title}</NavLink>{' '}
       </li>
     );
   });
