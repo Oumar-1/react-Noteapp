@@ -1,7 +1,6 @@
 {
   "name": "routes",
   "version": "0.1.0",
-  "homepage": "https://github.com/Oumar-1/react-Noteapp",
   "private": true,
   "dependencies": {
     "nanoid": "^4.0.0",
