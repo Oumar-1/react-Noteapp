@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Oumar-1/react-Noteapp/static/css/main.f6f6b473.css",
+    "main.js": "/Oumar-1/react-Noteapp/static/js/main.05a4345f.js",
+    "index.html": "/Oumar-1/react-Noteapp/index.html",
+    "main.f6f6b473.css.map": "/Oumar-1/react-Noteapp/static/css/main.f6f6b473.css.map",
+    "main.05a4345f.js.map": "/Oumar-1/react-Noteapp/static/js/main.05a4345f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6f6b473.css",
+    "static/js/main.05a4345f.js"
+  ]
+}
